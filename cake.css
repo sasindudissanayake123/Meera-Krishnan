@@ -1,0 +1,147 @@
+button {
+
+    float: right;
+    padding: 10px 20px;
+    border: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+
+
+
+}
+
+button:hover {
+
+    font-size: 30px;
+    text-decoration: unset;
+    color: pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+h1 {
+
+
+    margin-left: 40%;
+    font-family: cursive;
+    color: rgb(255, 56, 179);
+
+}
+
+body {
+    background-image: url("https://img.magnific.com/free-photo/dark-abstract-background_1048-1920.jpg?semt=ais_hybrid&w=740&q=80");
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+
+.product-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:8px;
+    overflow:hidden;
+    position:relative;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.wishlist{
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:28px;
+    height:28px;
+    background:#fff;
+    border-radius:4px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+
+.rating{
+    text-align:center;
+    color:#f7a600;
+    font-size:12px;
+    margin-top:10px;
+}
+
+.rating span{
+    color:#777;
+}
+
+.card h3{
+    text-align:center;
+    font-size:15px;
+    margin:8px 0;
+}
+
+.bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px;
+}
+
+.bottom p{
+    font-weight:bold;
+    font-size:14px;
+}
+
+.bottom button{
+    background:#d7f0d7;
+    border:none;
+    padding:6px 14px;
+    color:green;
+    border-radius:4px;
+    cursor:pointer;
+    font-size:13px;
+}
+
+.bottom button:hover{
+    background:#bce8bc;
+}
+
+.images{
+    display:flex;
+    flex-direction:column; /* photo yata photo */
+    gap:20px;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+
+
